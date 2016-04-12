@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JustaBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_justapp">JustaBook</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_micro_controller">MicroController</string>
+    <string name="title_activity_operation_research">OperationResearch</string>
+    <string name="title_activity_electronics">Electronics</string>
+    <string name="title_activity_general_studies">GeneralStudies</string>
+    <string name="title_activity_qq">Qq</string>
+    <string name="title_activity_computer_science">ComputerScience</string>
+    <string name="title_activity_reasoning">Reasoning</string>
+    <string name="title_activity_maths">Maths</string>
+
+</resources>

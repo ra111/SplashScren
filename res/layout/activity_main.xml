@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+ <!--  <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+          android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+         android:layout_marginTop="0sp"
+        android:layout_marginLeft="0sp"     	
+        
+         >
+        </android.support.v4.view.ViewPager>
+    
+        <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_pager"
+       
+         android:layout_marginLeft="1dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:text="Swipe Image to see other Offers" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="22sp"
+        android:text="Select"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/chk_android"
+        android:text="OperationResearch"
+        android:textColor="#003399"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:textColor="#003399"
+        android:id="@+id/chk_ios"
+        android:text="MicroController"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:textColor="#003399"
+        android:id="@+id/chk_wp"
+        android:text="GeneralStudies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:textColor="#003399"
+        android:id="@+id/chk_other"
+        android:text="Electronics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_gravity="center"
+        android:background="@drawable/capture4"
+        android:layout_margin="10dp"
+        android:layout_width="140dp"
+        android:layout_height="40dp" 
+        />
+-->
+ <TextView
+        android:layout_width="match_parent"
+        android:textSize="22sp"
+        android:text="Books Available"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+  <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" >
+    </ListView>
+     
+
+</LinearLayout>

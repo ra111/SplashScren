@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splashscren"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/just_abook"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.splashscren.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.Justapp"
+            android:label="@string/title_activity_justapp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.splashscren.Cart"
+            android:label="@string/title_activity_cart" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.MicroController"
+            android:label="@string/title_activity_micro_controller" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.OperationResearch"
+            android:label="@string/title_activity_operation_research" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.Electronics"
+            android:label="@string/title_activity_electronics" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.GeneralStudies"
+            android:label="@string/title_activity_general_studies" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.Qq"
+            android:label="@string/title_activity_qq" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.ComputerScience"
+            android:label="@string/title_activity_computer_science" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.Reasoning"
+            android:label="@string/title_activity_reasoning" >
+        </activity>
+        <activity
+            android:name="com.example.splashscren.Maths"
+            android:label="@string/title_activity_maths" >
+        </activity>
+    </application>
+
+</manifest>
